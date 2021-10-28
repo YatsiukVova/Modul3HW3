@@ -16,7 +16,6 @@ namespace ObserverTemplate
             subject.Notify();
 
             subject.Detach(firstObserver);
-
             subject.Notify();
         }
     }
